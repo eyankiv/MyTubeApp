@@ -17,7 +17,7 @@ package com.example.yevgeni.mytubeapp;
  * Created by yevgeni on 25/02/2017.
  */
 
-public class GetVodRowData extends GetRawData {
+public class GetVodRawData extends GetRawData {
 
     public static final String PLAYLIST_ARR_ITEM = "Playlists";
 
@@ -29,7 +29,7 @@ public class GetVodRowData extends GetRawData {
     private static final String VOD_THUMB = "thumb";
 
 
-    public static final String LOG_TAG = GetVodRowData.class.getSimpleName();
+    public static final String LOG_TAG = GetVodRawData.class.getSimpleName();
 
     private URL jsonLinkUrl;
     private List<YouTubeItem> mVodItems;
@@ -41,7 +41,7 @@ public class GetVodRowData extends GetRawData {
         this.postDataPull = postDataPull;
     }
 
-    public GetVodRowData(String mRawUrl)  {
+    public GetVodRawData(String mRawUrl)  {
         super(null);
         mVodItems = new ArrayList<>();
         mVodList = new HashMap<>();

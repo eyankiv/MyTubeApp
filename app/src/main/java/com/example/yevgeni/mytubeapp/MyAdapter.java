@@ -1,10 +1,5 @@
 package com.example.yevgeni.mytubeapp;
 
-/**
- * Created by yevgeni on 07/04/2017.
- */
-
-
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
